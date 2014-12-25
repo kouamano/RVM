@@ -1,0 +1,5 @@
+program: コメント	<input file>	<output file>
+
+rvm-init: クラスタノードを初期化	<training sample file>	<cluster file>
+rvm-train: トレーニングプログラム	<cluster file>,<training sample file>	<correction data file>
+rvm-cl:	クラスタリングプログラム	<correction data file>,<test sample file>	<classified sample file>
